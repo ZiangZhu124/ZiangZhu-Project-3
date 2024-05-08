@@ -21,7 +21,7 @@ const init =()=>{
     })
 
     
-    gsap.fromTo(".kiosk-motif", { opacity: 0 }, { opacity: 1, duration: 1, onComplete: ()=>
+    gsap.fromTo(".kiosk-motif", { opacity: 0 }, { opacity: 1, duration: 0.5, onComplete: ()=>
        
         {gsap.fromTo(".title", { opacity: 0 }, { opacity: 1, duration: 0.5, onComplete: ()=>
         
